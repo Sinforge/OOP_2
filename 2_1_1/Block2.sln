@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Block2", "Block2\Block2.vcxproj", "{B42DC1E4-FFC5-459D-95BA-D57425D1BA4A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_1_1", "Block2\Block2.vcxproj", "{B42DC1E4-FFC5-459D-95BA-D57425D1BA4A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_1_2", "2_1_2\2_1_2.vcxproj", "{ADFCAF26-560A-4357-89E6-3A52173BDA11}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_1_3", "2_1_3\2_1_3.vcxproj", "{86DDD2EC-E58E-4D16-9703-A791B578CCBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{B42DC1E4-FFC5-459D-95BA-D57425D1BA4A}.Release|x64.Build.0 = Release|x64
 		{B42DC1E4-FFC5-459D-95BA-D57425D1BA4A}.Release|x86.ActiveCfg = Release|Win32
 		{B42DC1E4-FFC5-459D-95BA-D57425D1BA4A}.Release|x86.Build.0 = Release|Win32
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Debug|x64.ActiveCfg = Debug|x64
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Debug|x64.Build.0 = Debug|x64
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Debug|x86.ActiveCfg = Debug|Win32
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Debug|x86.Build.0 = Debug|Win32
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Release|x64.ActiveCfg = Release|x64
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Release|x64.Build.0 = Release|x64
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Release|x86.ActiveCfg = Release|Win32
+		{ADFCAF26-560A-4357-89E6-3A52173BDA11}.Release|x86.Build.0 = Release|Win32
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Debug|x64.ActiveCfg = Debug|x64
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Debug|x64.Build.0 = Debug|x64
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Debug|x86.ActiveCfg = Debug|Win32
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Debug|x86.Build.0 = Debug|Win32
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Release|x64.ActiveCfg = Release|x64
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Release|x64.Build.0 = Release|x64
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Release|x86.ActiveCfg = Release|Win32
+		{86DDD2EC-E58E-4D16-9703-A791B578CCBD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
