@@ -1,6 +1,7 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 #include <iostream>
+#include <iomanip>
 using namespace std;
 class Array {
 public:
@@ -8,7 +9,7 @@ public:
 	int size;
 
 };
-class ArrayInput : public Array {
+class ArrayInput : virtual public Array {
 public:
 		ArrayInput(int size) {
 			this->size = size;
@@ -18,23 +19,24 @@ public:
 			}
 		}
 };
-class ArraySortOutput : public Array {
+class ArraySortOutput : virtual public Array {
 public:
 		void sort() {
 			int temp;
-			for (int i = 0; i < this->size- 1; i++) {
-				for (int j = i; j < this->size; j++) {
-					if (this->mas[j] < this->mas[i]) {
-						temp = this->mas[i];
-						this->mas[i] = this->mas[j];
-						this->mas[j] = temp;
+			for (int i = 0; i < size- 1; i++) {
+				for (int j = i; j < size; j++) {
+					if (mas[j] < mas[i]) {
+						temp = mas[i];
+						mas[i] = mas[j];
+						mas[j] = temp;
 					}
 				} 
 			}
 		}
 		void print() {
-			for (int i = 0; i < this->size; i++) {
-				cout << this->mas[i] << " ";
+			cout <<setw(5) << mas[0];
+			for (int i = 1; i < size; i++) {
+				cout << setw(5) << mas[i];
 
 			}
 		}
@@ -44,8 +46,5 @@ public:
 class ArrayALL : public ArrayInput, public ArraySortOutput {
 public:
 	ArrayALL(int size) : ArrayInput(size) {}
-	
-
-
 };
 #endif

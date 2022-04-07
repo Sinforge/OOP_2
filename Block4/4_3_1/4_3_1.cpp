@@ -9,6 +9,11 @@ int main()
 	int size;
 	cin >> size;
 	ArrayALL * arr= new ArrayALL(size);
+	cout << "Array dimension: " << arr->size << endl;
+	cout << "The original array: ";
+	arr->print();
+	cout << "\nAn ordered array: ";
+	arr->sort();
 	arr->print();
 
 }
