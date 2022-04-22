@@ -2,24 +2,29 @@
 //
 
 #include <iostream>
+#include "Header.h"
+#include <vector>
 using namespace std;
 
 int main()
 {
-	int num = 0;
-	string hex = "A4";
-	for (int i = hex.length() - 1; i > -1; i--) {
-		int digit = 0;
-		if ((int)hex[i] <= (int)'9' && (int)(hex[i]) >= (int)'0') {
-			digit = (int)(hex[i]) - (int)'0';
-			cout << digit << endl;
+	int n, n1, n2;
+	char op;
+	vector<Element> elems;
+	string data, temp;
+	cin >> n;
+	for (int i = 0; i < n; i++) {
+		cin >> data >> temp;
+		elems.push_back(Element(data, temp));
+	}
+	while (cin >> n1) {
+		cin >> op >> n2;
+		if (op == '&') {
+			elems[n1 - 1] & elems[n2 - 1];
 		}
 		else {
-			digit = ((int)(hex[i]) - (int)'A') + 10;
-
+			elems[n1 - 1] | elems[n2 - 1];
 		}
-		num += digit * pow(16, hex.length() - 1 - i);
-
 	}
-	cout << num;
+	cout << elems[n1 - 1].data;
 }
