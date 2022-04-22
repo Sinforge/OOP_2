@@ -27,4 +27,5 @@ int main()
 		}
 	}
 	cout << elems[n1 - 1].data;
+
 }

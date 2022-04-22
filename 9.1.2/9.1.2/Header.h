@@ -28,6 +28,9 @@ private:
 	string translateTO16(int number) {
 		string hex = "";
 		int ost;
+		if (number == 0) {
+			return "00";
+		}
 		while (number != 0) {
 			ost = number % 16;
 			if (ost >= 10) {
