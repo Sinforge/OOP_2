@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KL_3.3", "KL_3.3\KL_3.3.vcxproj", "{2159EC8E-B754-4A39-922C-2CDE070E7ECC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Debug|x64.ActiveCfg = Debug|x64
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Debug|x64.Build.0 = Debug|x64
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Debug|x86.ActiveCfg = Debug|Win32
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Debug|x86.Build.0 = Debug|Win32
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Release|x64.ActiveCfg = Release|x64
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Release|x64.Build.0 = Release|x64
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Release|x86.ActiveCfg = Release|Win32
+		{2159EC8E-B754-4A39-922C-2CDE070E7ECC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2A7FBAD-4137-4BD6-B201-31D2D23E1D74}
+	EndGlobalSection
+EndGlobal
